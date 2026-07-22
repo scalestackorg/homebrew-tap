@@ -6,6 +6,7 @@ Homebrew formulas for Scalestack CLI tools.
 
 ```sh
 brew tap scalestackorg/tap
+brew trust scalestackorg/tap   # newer Homebrew requires trusting third-party taps
 brew install scalestack
 ```
 
