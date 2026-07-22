@@ -5,11 +5,20 @@ Homebrew formulas for Scalestack CLI tools.
 ## Install
 
 ```sh
-brew tap scalestackorg/tap
-brew install scalestack
+brew install scalestackorg/tap/scalestack
 ```
 
-Upgrade with `brew upgrade scalestack`.
+The fully qualified name taps this repository automatically. Upgrade with
+`brew upgrade scalestack`.
+
+Equivalent explicit form (newer Homebrew requires the trust step when
+tapping separately):
+
+```sh
+brew tap scalestackorg/tap
+brew trust scalestackorg/tap
+brew install scalestack
+```
 
 ## What is the Scalestack CLI?
 
