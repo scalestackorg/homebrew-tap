@@ -31,7 +31,7 @@ Attento agent from a terminal or CI job.
 ## Authentication
 
 ```sh
-export SCALESTACK_M2M_TOKEN='...'
+export SCALESTACK_TOKEN='...'
 scalestack auth status
 ```
 
