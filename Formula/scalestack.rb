@@ -1,7 +1,6 @@
 class Scalestack < Formula
   desc "Command-line client for the Scalestack platform"
   homepage "https://scalestack.ai"
-  version "0.2.0"
 
   on_macos do
     on_arm do

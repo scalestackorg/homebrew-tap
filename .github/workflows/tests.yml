@@ -1,0 +1,20 @@
+name: brew test-bot
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+jobs:
+  tap-syntax:
+    name: Tap Syntax
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Set up Homebrew
+        uses: Homebrew/actions/setup-homebrew@main
+
+      - name: Run brew test-bot
+        run: brew test-bot --only-tap-syntax
