@@ -4,23 +4,23 @@ class Scalestack < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/scalestackorg/homebrew-tap/releases/download/v0.2.0/scalestack_v0.2.0_darwin_arm64.tar.gz"
-      sha256 "3451b7554b0b5664f516360f2b1da79548acfbfe94b61838b6e05867de0e2194"
+      url "https://github.com/scalestackorg/homebrew-tap/releases/download/v0.3.0/scalestack_v0.3.0_darwin_arm64.tar.gz"
+      sha256 "02bbf7b7d564a22b03efe9ec47b53f8a82dba1f105a872fa0117845ac586a479"
     end
     on_intel do
-      url "https://github.com/scalestackorg/homebrew-tap/releases/download/v0.2.0/scalestack_v0.2.0_darwin_amd64.tar.gz"
-      sha256 "041a07ce944197975ae0b8ac5060d75422ecf9743ab3ab2e429a2c2bbd4de9d4"
+      url "https://github.com/scalestackorg/homebrew-tap/releases/download/v0.3.0/scalestack_v0.3.0_darwin_amd64.tar.gz"
+      sha256 "887870e21fdae2c9e14996a13cea1f18ca1eb7ccd57d41e4f7bbf4a14ff6e820"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/scalestackorg/homebrew-tap/releases/download/v0.2.0/scalestack_v0.2.0_linux_arm64.tar.gz"
-      sha256 "b955a2eb912004ca77224c1a8bd95d92ce99910029bd2e9a46266cd4be4421c5"
+      url "https://github.com/scalestackorg/homebrew-tap/releases/download/v0.3.0/scalestack_v0.3.0_linux_arm64.tar.gz"
+      sha256 "9bc090c4d350613b88386463f9b6046704c21e20fb903087911be5680ac4c2d8"
     end
     on_intel do
-      url "https://github.com/scalestackorg/homebrew-tap/releases/download/v0.2.0/scalestack_v0.2.0_linux_amd64.tar.gz"
-      sha256 "8c99e78c5f5577039acd07634467a9c411d1e09413997f2a4145a099381377b1"
+      url "https://github.com/scalestackorg/homebrew-tap/releases/download/v0.3.0/scalestack_v0.3.0_linux_amd64.tar.gz"
+      sha256 "b5ee55a7dd1e876727cd74c7df394cef2e9213c850d35bbe062231bdd90234f3"
     end
   end
 
