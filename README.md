@@ -24,7 +24,8 @@ brew install scalestack
 
 `scalestack` is a command-line client for the Scalestack platform: import
 CSVs, run enrichment workflows, inspect and export results, and talk to the
-Attento agent from a terminal or CI job.
+Attento agent from a terminal or CI job. Version 0.4.0 also manages provider
+API keys through 1Password.
 
 - [API documentation](https://platform.scalestack.ai/docs)
 
@@ -37,6 +38,26 @@ scalestack auth status
 
 See `scalestack --help` for commands, profiles, and JSON output for
 automation.
+
+## Provider keys (0.4.0)
+
+Provider-key commands use your own 1Password CLI session and vault permissions.
+They do not require `SCALESTACK_TOKEN` or a Scalestack backend login.
+Install the 1Password CLI, enable its desktop app integration, and unlock the app.
+
+```sh
+op whoami
+scalestack provider-key capabilities
+scalestack provider-key menu
+```
+
+The menu supports automatic creation for compatible providers, saving keys
+created in provider consoles, finding keys across accessible vaults, and checking
+a key's validity. Keys are stored in the selected 1Password vault; access follows
+that vault's permissions.
+
+AWS backup commands require their own AWS and 1Password configuration. Installing
+or upgrading the CLI does not enable scheduled AWS backups.
 
 ## Other platforms
 
